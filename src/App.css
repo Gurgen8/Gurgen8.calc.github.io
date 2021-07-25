@@ -1,0 +1,79 @@
+*{
+  text-align: center;
+ background-color: black;
+}
+
+.result{
+ 
+ height: 90px;
+  width: 100%;
+  margin-bottom: 30px;
+display: flex;
+align-items: center;
+ 
+}
+
+
+.calc-body{
+  max-width: 320px;
+  margin: auto;
+  box-shadow: 10px 10px 30px #ccc;
+  padding: 25px;
+
+
+
+  
+}
+
+
+p{
+  
+  color:#ccc;
+  line-height: 130px;
+  font-size: 2em;
+  
+  flex: 1;
+}
+
+.buttons{
+  display: block;
+  background-color: black;
+}
+
+.numbers{
+  display: inline;
+  
+}
+
+.numbers button{
+  background-color: aqua !important;
+  color:black !important
+}
+.buttons button{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  font-size: 26px;
+  background-color: orange;
+  margin:2px;
+  color:white
+}
+
+
+.operators{
+  display: inline;
+}
+
+.math{
+  display: inline;
+}
+
+.math button{
+  background-color: #A9A9A9;
+  color:black
+}
+
+
+button:hover{
+  background-color: green !important;
+}
